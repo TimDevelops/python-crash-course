@@ -1,5 +1,6 @@
 lists = ["John", "Smith", "Tom", "Holland"]
 
-spiderman = lists.pop(3)
+new_name = input("Enter name: ") 
+lists.append(new_name)
+
 print(lists)
-print(f"Look it's Spiderman.. Uhh I mean {spiderman}")
